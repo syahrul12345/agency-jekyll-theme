@@ -4,9 +4,22 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-    
-    width: 522px;
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: auto; 
+}
+
+@media(max-width: 500px) {
+    body {
+        width: 130%;
+        font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #{{ site.data.template.color.secondary-dark }};
+    }
+}
+body {   
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
@@ -173,7 +186,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
-    width: 100%;
 }
 
 .navbar-default .navbar-brand {
