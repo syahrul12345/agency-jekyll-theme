@@ -12,14 +12,10 @@ html {
     overflow-y: auto; 
 }
 
-@media(max-width: 500px) {
-    body {
-        width: 130%;
-        font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-        color: #{{ site.data.template.color.secondary-dark }};
-    }
-}
-body {   
+
+body {  
+    right: 0;
+    width: 100% 
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
@@ -183,7 +179,12 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+.navbar {
+    margin-bottom: 0px;
+}
+
 .navbar-default {
+    background-color: transparent;
     border-color: transparent;
     background-color: #222;
 }
@@ -249,6 +250,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
