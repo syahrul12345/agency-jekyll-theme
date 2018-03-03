@@ -12,3 +12,4 @@ $(window).scroll(
         $(".header").hide();
     }
     this.previousTop = currentTop;
+    });
