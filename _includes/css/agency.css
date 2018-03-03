@@ -5,7 +5,8 @@
  */
 
 body {
-    overflow-x: hidden;
+    
+    width: 522px;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
@@ -172,6 +173,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+    width: 100%;
 }
 
 .navbar-default .navbar-brand {
