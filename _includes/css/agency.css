@@ -246,7 +246,7 @@ fieldset[disabled] .btn-xl.active {
 
 .nav.navbar-nav.navbar-right {
     margin-top: 0px;
-    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: black;
 }
 @media(min-width:768px) {
