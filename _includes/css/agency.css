@@ -369,6 +369,20 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+tr:hover {
+    background-color: red;
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media(min-width:768px) {
     section {
         padding-top: 50px;
